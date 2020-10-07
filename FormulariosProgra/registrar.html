@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar HTML</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+
+    <h1>Formulario de registro del apoderado</h1>
+    <form action="procesar.html" method="post">
+        <div class="form-group">
+            <label for="nc">Documento de identidad del apoderado:</label>
+            <input type="text" name="documento_identidad" id="nc" required class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="nc">Nombre completo:</label>
+            <input type="text" name="nombre_completo" id="nc" required class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="nc">Apellidos:</label>
+            <input type="text" name="apellidos" id="nc" required class="form-control">
+        </div>
+        <div class="form-group">
+            Sexo:
+            <label><input type="radio" name="sexo" value="F"> Femenino</label>
+            <label><input type="radio" name="sexo" value="M"> Masculino</label>
+        </div>
+          <div class="form-group">
+            Edad: <input type="text" name="edad" id="" class="form-control">
+        </div>
+        <div class="form-group">
+            Correo: <input type="email" name="correo" id="" class="form-control">
+        </div>
+        <div class="form-group">
+            Número de contacto: <input type="tel" name="telefono" id="" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="nc">DNI del alumno:</label>
+            <input type="text" name="dni_alumno" id="nc" required class="form-control">
+        </div>
+        <div class="form-group">
+            Contraseña: <input type="password" name="Contraseña" id="" class="form-control" >
+        </div>
+        <button class="btn btn-primary">Registrarse</button>
+    </form>
+
+    </div>
+</body>
+</html>
